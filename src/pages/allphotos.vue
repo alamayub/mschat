@@ -8,6 +8,7 @@
         <img :src="photo.post_image" >
       </f7-link>
     </f7-block>
+
   </f7-page>
 </template>
 
@@ -55,9 +56,9 @@ export default {
 }
 @media (max-width: 600px) {
   #photos {
-    -moz-column-count:    3;
-    -webkit-column-count: 3;
-    column-count:         3;
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
   }
 }
 
